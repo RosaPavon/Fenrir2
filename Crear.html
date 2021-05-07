@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenrir/Crear</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <script src="FENRIR.js"></script>
+
+    <header id=headercrear>
+        <div id= "barracrear">
+            <div>
+            </div>
+             <div id="contenidoheader">
+                  <div>
+                <a href="Inicio.html" id="c"> HOMEPAGE</a>
+                <a id="d"> CREAR</a>
+                <a href="About us.html"id="c"> ABOUT US</a>
+                <br> <br><br><br><br>
+            </div>
+        </div>            
+    </div>
+    </header>
+    </div>
+<div>
+    <hr>
+</div>
+<div id="contenedor1crear">
+  <P id="titulo1">PASO 1: ELIGE LA FORMA</P>
+    
+    <hr>
+
+<div class= "bloque2crear">
+    <div class="card" id="materiales">
+        <img id="circulo" src="imagen/circulob.jpg" alt="circulo" class="ajustarimagenes">
+        <div class="container">           
+            <button onclick="botonañadircirculo()">Añadir</button>
+            <button onclick="botonquitarcirculo()">Eliminar</button>
+            </div>
+      </div>
+      <div class="card" id="materiales1">
+        <img id="cuadrado"src="imagen/cuadrado.jpg" alt="cuadrado" class="ajustarimagenes">
+        <div class="container">           
+            <button onclick="botonañadircuadrado()">Añadir</button>
+            <button onclick="botonquitarcuadrado()">Eliminar</button>
+
+            </div>
+      </div>
+      <div class="card" id="materiales2">
+        <img id="pentagono" src="imagen/pentagonob.jpg" alt="pentagono" class="ajustarimagenes">
+
+        <div class="container">           
+            <button onclick="botonañadirpentagono()">Añadir</button>
+            <button onclick="botonquitarpentagono()">Eliminar</button>
+            </div>
+      </div>
+      <div class="card" id="materiales3">
+        <img id="rectangulo"src="imagen/rectangulob.jpg" alt="rectangulo" class="ajustarimagenes">
+        <div class="container"> 
+            <button onclick="botonañadirrectangulo()">Añadir</button>
+            <button onclick="botonquitarrectangulo()">Eliminar</button>
+
+            </div>
+      </div>
+      <div class="card" id="materiales4">
+        <img id="personalizado" src="imagen/personalizado.jpg" alt="personalizado" class="ajustarimagenes">
+
+        <div class="container">           
+            <button onclick="botonañadirpersonalizado()">Añadir</button>
+            <button onclick="botonquitarpersonalizado()">Eliminar</button>
+
+            </div>
+      </div>
+    </div>
+</div>
+</div>
+<div>
+<hr>
+</div>
+<div id="contenedor2crear">
+  
+    <P id="titulo1crear">PASO 2: ELIGE LA FRASE PARA LA DEDICATORIA</P>
+    
+    <hr>
+
+
+<div id="contenedor2crear">
+        <div>
+        <h3 id="titulosfrase">Busca la palabra que quieres que contenga la frase</h3>
+        <input id="inputBuscador"/>
+        <button onclick="buscar()"id="titulosfrase2">BUSCAR</button>
+    </div>
+    <div class= "bloque2crear"></div>
+    <div>
+    <div>
+        <span id="resultado"></span>
+        <button id="buttonGuardar" onclick="guardar()" style="display: none">Favorito</button>
+    </div>
+</div>
+<div class= "bloque2crear">
+    
+
+    <div>
+        <h3 id="titulosfrase">Favoritos</h3>
+        <div id="abc"></div>
+
+      
+
+    </div>
+
+
+</div>
+</div>
+<div>
+    <hr>
+</div>
+<div id="contenedor1crear">
+  <P id="titulo1">PASO 3: ELIGE LA DIFICULTAD EN EL CUIDADO</P>
+    
+    <hr>
+
+<div class= "bloque2crear">
+    <div  id="auto">
+        <img src="imagen/dificultad.jpg" alt="dif1"class="justificacionfoto">
+        <P class= "justificacioncrear">AUTOSUFICIENTE<br>La ecoesfera es autosuficiente y con un mantenimiento anual</P>
+        <button onclick="botondif1añadir()">Añadir</button>
+        <button onclick="botondif1quitar()">Eliminar</button>
+
+
+    </div>
+    <div  id="auto1">
+        <img src="imagen/dificultad1.jpg" alt="dif2"class="justificacionfoto">
+        <P class= "justificacioncrear">DIFICULTAD BAJA<br> La ecoesfera requiere un mantenimiento bimensual</P>
+        <button onclick="botondif2añadir()">Añadir</button>
+        <button onclick="botondif2quitar()">Eliminar</button>
+    </div>
+    <div id="auto2">
+        <img src="imagen/dificultad2.jpg" alt="dif3"class="justificacionfoto">
+        <P class= "justificacioncrear">DIFICULTAD MEDIA<br> La ecoesfera requiere un mantenimiento semanal</P>
+        <button onclick="botondif3añadir()">Añadir</button>
+        <button onclick="botondif3quitar()">Eliminar</button>
+
+    </div>
+    <div id="auto3"> 
+        <img src="imagen/dificultad3.jpg" alt="dif4" class="justificacionfoto">
+        <P class= "justificacioncrear">DIFICULTAD ALTA<br> La ecoesfera requiere un mantenimiento cada 3 días</P>
+        <button onclick="botondif4añadir()">Añadir</button>
+        <button onclick="botondif4quitar()">Eliminar</button>
+
+    </div>
+    <div id="auto4">
+        <img src="imagen/dificultad4.jpg" alt="dif5" class="justificacionfoto">
+        <P class= "justificacioncrear">PLANTAS ESTACIONALES<br> La ecoesfera requiere un mantenimiento estacional</P>
+        <button onclick="botondif5añadir()">Añadir</button>
+        <button onclick="botondif5quitar()">Eliminar</button>
+
+    </div> 
+</div>
+</div>
+<div id="contenedor2">
+    <hr>
+
+    <P id="titulo1">CREA TU ECOESFERA</P>
+    
+    <hr>
+
+<div class= "bloque2">
+    <div>
+        <a href="Pedido.html" id="a"> REALIZAR PEDIDO</a>
+
+    </div> 
+    
+</div>  
+<hr>
+
+</div>
+<div>
+    <footer>
+        <div>
+            <br>
+            <div id="contenedor4">
+                <div>
+  
+                <h class="titlefooter">Dónde estamos</h>
+                <br>
+                <div>
+                    <P class= "footertext2">Company Name<br>Street Name & Number<br>Town</P>
+                
+                </div>
+            </div>
+            <div id="contenedorfooter">
+            <div>
+                <h class="titlefooter2">Conócenos</h>
+                <div>
+                    <P class= "footertext2">Tel:xxx xxx xxx<br>Email:fenrir@gmail.com </P>
+
+            </div>
+            </div>         
+            </div>
+            <div id="contenedorfooter">
+            <div>
+                <h class="titlefooter3">Contact Us</h>
+                <div>
+                    <P class= "footertext3">Convallisijusto vestas mus pellentum aeneansa pibu lum in aliquam volut pat integest nulla.</P>
+
+            </div>
+            </div>       
+            </div>
+            </div>
+
+            <div id="contenedor5">
+                <div>
+                <hr id="blanco">
+                <p id="Copyright">     Copyright © 2021 - All Rights Reserved - Fenrir                                                                                                                                                    Template Rosa Pavón</p>
+                </div>
+             </div>
+        </div>
+ </div>
+        
+    </footer>
+ 
+</body>
+</html>

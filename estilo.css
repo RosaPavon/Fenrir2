@@ -1,0 +1,633 @@
+
+@media only screen and (min-width:576px){
+#header{
+    background-image: url(imagen/PORTADA.png);
+    background-attachment: fixed;
+
+
+}
+#headercrear{
+    background-image: url(imagen/PORTADA3.png);
+    background-attachment: fixed;
+
+
+}
+#barra {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagen/PORTADA.png);
+}
+#barracrear{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagen/PORTADA3.png);
+}
+#a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color:rgb(45, 101, 113);
+
+}
+#b{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+#d{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color:rgb(45, 101, 113);
+
+}
+#c{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+#f{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color:rgb(45, 101, 113);
+
+}
+#e{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+#contenidoheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 65px 35px;
+        
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+
+}
+
+#blanco{
+    color: white;
+    margin-left: 15px;
+}
+
+hr{
+    background-color: gray;
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.center2{
+    display: block;
+    margin-right: auto;
+    width: 80%;
+
+}
+#contenedor1{
+    background-color: white;
+    padding: 25px 0px 0px 0px;
+}    
+
+#titulo1{
+   display: flex;
+   flex-direction: column;
+   padding: 5px 55px;
+   color:white;
+   background-color:rgb(36, 36, 36);
+   margin: auto auto;
+   text-align: center;
+   font-size: 25px;
+
+  
+} 
+#frase{
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 250px;
+    width: 800px;
+}
+#frase2{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 250px;
+    width: 800px;
+}
+
+.bloque1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+.bloque2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 25px 25px;
+
+}
+#contenedor1crear{
+    background-color: white;
+    padding: 25px 0px 0px 0px;
+}    
+
+#titulo1crear{
+   display: flex;
+   flex-direction: column;
+   padding: 5px 55px;
+   color:white;
+   background-color:rgb(45, 101, 113);
+   margin: auto auto;
+   text-align: center;
+   font-size: 25px;
+
+  
+} 
+
+.bloque1crear{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+.bloque2crear{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 25px 25px;
+
+}
+#fraseguardada{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color:white;
+
+}
+#buttonGuardar{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 55px;
+    color:rgb(36, 36, 36);
+    margin: 5px 580px;
+    text-align: center;
+    font-size: 15px;
+}
+#abc{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color:white;
+
+}
+#resultado{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color:white;
+
+}
+#inputBuscador{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color:rgb(71, 71, 71);
+
+}
+
+.justificacion{
+    width: 200px;
+    color: white;
+}
+.ajustartexto{
+    margin-left: 10px;
+}
+.justificacioncrear{
+    width: 200px;
+    color: rgb(36, 36, 36);
+}
+.ajustartextocrear{
+    margin-left: 10px;
+}
+.ajustarimagenes{
+    margin-right: 35px;
+    width: AUTO; height: auto;
+}
+.justificacionfoto2{
+    border:  rgb(45, 101, 113) 5px solid;
+}
+#titulosfrase{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 55px;
+    color:white;
+    margin: auto auto;
+    text-align: center;
+    font-size: 20px;
+}
+#titulosfrase2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 55px;
+    color:rgb(36, 36, 36);
+    margin: auto auto;
+    text-align: center;
+    font-size: 15px;
+}
+.footertitle{
+    color: rgb(45, 101, 113);
+    font-family: Baskerville Old Face;
+
+
+}
+.footertext{
+    font-family: Baskerville Old Face;
+    color:rgb(173, 173, 173);
+}
+#contenedor4{
+    background-color:rgb(71, 71, 71);
+    width: 970px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#contenedor5{
+    background-color:rgb(71, 71, 71);
+    width: 970px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+   
+}
+.titlefooter{
+    color:rgb(173, 173, 173);
+    margin-left: 20px;
+    font-size: 20px;
+}
+.titlefooter2{
+    color:rgb(173, 173, 173);
+    margin-left: 10px;
+    font-size: 20px;
+}
+.titlefooter3{
+    color:rgb(173, 173, 173);
+    font-size: 20px;
+
+}
+.footertext2{
+    font-family: Baskerville Old Face;
+    color:rgb(173, 173, 173);
+    margin-left: 10px;
+    white-space: pre;
+    line-height : 27px;
+}
+.footertext3{
+    font-family: Baskerville Old Face;
+    color:rgb(173, 173, 173);
+    width: 220px;
+    margin-right: 10px;
+}
+#Copyright{
+    font-family: Baskerville Old Face;
+    color:rgb(160, 160, 160);
+    font-size: 15px;
+    white-space: pre;
+
+}
+}
+@media only screen and (max-width: 575.98px){
+   
+  
+    #barra {
+        background-color: rgb(36, 36, 36);
+        background-image: url(imagen/portadaminiinicio.jpg);
+    }
+    #barracrear{
+        background-color: rgb(36, 36, 36);
+        justify-content: space-between;
+        background-image: url(imagen/portadamini.jpg);
+    }
+    #a{
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        margin-right: 5px;
+        background-color:rgb(45, 101, 113);
+    
+    }
+    #b{
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        margin-right: 5px;
+    
+    }
+    #d{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        background-color:rgb(45, 101, 113);
+    
+    }
+    #c{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+    
+    }
+    #f{
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        margin-right: 2px;
+        background-color:rgb(45, 101, 113);
+    
+    }
+    #e{
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        margin-right: 2px;
+    
+    }
+
+    
+    body{
+        background-color: rgb(36, 36, 36);
+    
+    }
+    
+    #blanco{
+        color: white;
+        margin-left: 5px;
+    }
+    
+    hr{
+        background-color: gray;
+    }
+    
+    
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+    }
+    .center2{
+        display: block;
+        margin-right: auto;
+        width: 80%;
+    
+    }
+    #contenedor1{
+        background-color: white;
+        padding: 25px 0px 0px 0px;
+    }    
+    
+    #titulo1{
+       flex-direction: column;
+       padding: 5px 55px;
+       color:white;
+       background-color:rgb(36, 36, 36);
+       margin: auto auto;
+       text-align: center;
+       font-size: 15px;
+    
+      
+    } 
+    #frase{
+        font-style: italic;
+        text-align: center;
+    }
+    #frase2{
+        text-align: center;
+    }
+    
+    .bloque1{
+        justify-content: center;
+    
+    }
+    .bloque2{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        padding: 25px 25px;
+    
+    }
+    #contenedor1crear{
+        background-color: white;
+        padding: 25px 0px 0px 0px;
+    }    
+    
+    #titulo1crear{
+       display: flex;
+       flex-direction: column;
+       padding: 5px 55px;
+       color:white;
+       background-color:rgb(45, 101, 113);
+       margin: auto auto;
+       text-align: center;
+       font-size: 25px;
+          
+    } 
+    
+    .bloque1crear{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+    
+    }
+    .bloque2crear{
+        justify-content: space-between;
+        justify-content: center;
+        padding: 25px 100px;
+    
+    }
+    #fraseguardada{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        color:white;
+    
+    }
+    #buttonGuardar{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 55px;
+        color:rgb(36, 36, 36);
+        margin: 5px 580px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #abc{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        color:white;
+    
+    }
+    #resultado{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        color:white;
+    
+    }
+    #inputBuscador{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        background-color:rgb(71, 71, 71);
+    
+    }
+    
+    .justificacion{
+        width: 200px;
+        color: white;
+    }
+    .ajustartexto{
+        margin-left: 15px;
+        font-size: 15px;
+
+    }
+    #ajustafotoinicio{
+        width: 250px;
+        margin-left: 10px;
+
+
+    }
+    .justificacioncrear{
+        width: 200px;
+        color: rgb(36, 36, 36);
+    }
+    .ajustartextocrear{
+        margin-left: 10px;
+    }
+    .ajustarimagenes{
+        margin-right: 35px;
+        width: AUTO; height: auto;
+    }
+    .justificacionfoto2{
+        border:  rgb(45, 101, 113) 5px solid;
+    }
+    #titulosfrase{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 55px;
+        color:white;
+        margin: auto auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    #titulosfrase2{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 55px;
+        color:rgb(36, 36, 36);
+        margin: auto auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    .footertitle{
+        color: rgb(45, 101, 113);
+        font-family: Baskerville Old Face;
+    
+    
+    }
+    .footertext{
+        font-family: Baskerville Old Face;
+        color:rgb(173, 173, 173);
+    }
+    #contenedor4{
+        background-color:rgb(71, 71, 71);
+        justify-content: space-between;
+       
+    }
+    #contenedor5{
+        background-color:rgb(71, 71, 71);
+        justify-content: space-between;
+        justify-content: left;
+       
+    }
+    .titlefooter{
+        color:rgb(173, 173, 173);
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .titlefooter2{
+        color:rgb(173, 173, 173);
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .titlefooter3{
+        color:rgb(173, 173, 173);
+        font-size: 20px;
+    
+    }
+    .footertext2{
+        font-family: Baskerville Old Face;
+        color:rgb(173, 173, 173);
+        margin-left: 10px;
+        white-space: pre;
+        line-height : 27px;
+    }
+    .footertext3{
+        font-family: Baskerville Old Face;
+        color:rgb(173, 173, 173);
+        width: 220px;
+        margin-right: 10px;
+    }
+    #Copyright{
+        font-family: Baskerville Old Face;
+        color:rgb(160, 160, 160);
+        font-size: 15px;
+        white-space: pre;
+    
+    }
+    }
